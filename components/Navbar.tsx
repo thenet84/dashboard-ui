@@ -15,7 +15,7 @@ const Navbar = () => {
     console.log('test');
     return <div className="bg-primary dark:bg-slate-700 py-2 px-5 text-white flex justify-between items-center">
         <Link href="/">
-            <Sparkles size="28" />
+            <Sparkles size="28" strokeWidth={0.75} />
         </Link>
         <div className="flex items-center">
             <ThemeToggler />
